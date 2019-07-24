@@ -10,7 +10,12 @@ def get_top_product_product_hunt():
     url = 'https://www.producthunt.com/'
     resp = session.get(url)
 
-    product_list = resp.html.find(".postsList_b2208")[1]
+    product_list_containers = resp.html.find(".postsList_b2208")
+
+    if len(product_list_containers) == 1:
+        product_list = product_list_containers[0]
+    else:
+        product_list = product_list_containers[1]
 
     if product_list:
         top_product = product_list.find("li")[0]

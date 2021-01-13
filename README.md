@@ -3,7 +3,7 @@
 Project created for my serverless scraping tutorial over at: https://blog.dannyaziz.com/serverless-web-scraping-with-python-and-aws-lambda/
 
 Create a virtualenv and install the requirments
-`pip install -r requriments.txt`
+`pip install -r requirements.txt`
 
 Run the local server
 `chalice local`

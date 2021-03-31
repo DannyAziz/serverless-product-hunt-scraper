@@ -18,7 +18,7 @@ idna==2.8
 ipython-genutils==0.2.0
 jedi==0.14.1
 jmespath==0.9.4
-lxml==4.3.4
+lxml==4.6.3
 parse==1.12.0
 parso==0.5.1
 pexpect==4.7.0
